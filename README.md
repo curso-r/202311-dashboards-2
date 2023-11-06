@@ -3,6 +3,10 @@
 
 ## Informações importantes
 
+- [Clique
+  aqui](https://github.com/curso-r/202311-dashboards-2/archive/refs/heads/main.zip)
+  para baixar o material do curso.
+
 - Nosso blog: <https://curso-r.com/blog/>
 
 - Nosso fórum: <https://discourse.curso-r.com/>
@@ -25,31 +29,18 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| Slide |
-|:------|
+| slides                                                                                                        | pdf                                                                                                         |
+|:--------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
+| [01-introducao_ao_curso.html](https://curso-r.github.io/main-dashboards-2/slides/01-introducao_ao_curso.html) | [01-introducao_ao_curso.pdf](https://curso-r.github.io/main-dashboards-2/slides/01-introducao_ao_curso.pdf) |
+| [02-modulos.html](https://curso-r.github.io/main-dashboards-2/slides/02-modulos.html)                         | [02-modulos.pdf](https://curso-r.github.io/main-dashboards-2/slides/02-modulos.pdf)                         |
+| [03-golem.html](https://curso-r.github.io/main-dashboards-2/slides/03-golem.html)                             | [03-golem.pdf](https://curso-r.github.io/main-dashboards-2/slides/03-golem.pdf)                             |
+| [04-html-css.html](https://curso-r.github.io/main-dashboards-2/slides/04-html-css.html)                       | [04-html-css.pdf](https://curso-r.github.io/main-dashboards-2/slides/04-html-css.pdf)                       |
+| [05-htmlwidgets.html](https://curso-r.github.io/main-dashboards-2/slides/05-htmlwidgets.html)                 | [05-htmlwidgets.pdf](https://curso-r.github.io/main-dashboards-2/slides/05-htmlwidgets.pdf)                 |
 
 ## Scripts utilizados em aula
 
-| Exemplo |
-|:--------|
-
-## Práticas
-
-| Exemplo |
-|:--------|
-
-## Lição de casa
-
-| Exercício |
-|:----------|
-
-## Material extra
-
-Referências extras relacionadas com o conteúdos das aulas, ou materiais
-que comentamos quando tiramos dúvidas (não necessariamente são
-relacionadas com o conteúdo da aula).
-
-    #> Em breve!
+| Exemplos |
+|:---------|
 
 ## Redes sociais da Curso-R
 
