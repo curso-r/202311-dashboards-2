@@ -6,29 +6,30 @@ mod_filtros_ui <- function(id, dados, ...) {
 
   tagList(
     bslib::card(
-      h6("Filtros"),
-      fluidRow(
-        column(
-          width = 4,
+      fill = FALSE,
+      bslib::card_header("Filtros"),
+      bslib::card_body(
+        class = "overflow-visible",
+        bslib::layout_columns(
+          col_widths = c(3, 3, 3, 3),
           dateRangeInput(
             inputId = ns("periodo"),
             label = "Selecione um período",
             start = menor_data,
             min = menor_data,
             end = maior_data,
-            max = maior_data
-          )
-        ),
-        ...
+            max = maior_data,
+            width = "90%"
+          ),
+          ...
+        )
       )
     )
   )
-
 }
 
 mod_filtros_server <- function(id, dados) {
   moduleServer(id, function(input, output, session) {
-
     dados_filtrados <- reactive({
       dados |>
         dplyr::filter(
@@ -38,6 +39,5 @@ mod_filtros_server <- function(id, dados) {
     })
 
     return(dados_filtrados)
-
   })
 }

@@ -11,13 +11,11 @@ mod_ocorrencias_ui <- function(id, dados) {
     mod_filtros_ui(
       id = ns("filtros_1"),
       dados = dados,
-      column(
-        width = 4,
-        varSelectInput(
-          inputId = ns("ocorrencia"),
-          label = "Selecione uma ocorrência",
-          data = tab
-        )
+      varSelectInput(
+        inputId = ns("ocorrencia"),
+        label = "Selecione uma ocorrência",
+        data = tab,
+        width = "90%"
       )
     ),
     bslib::layout_columns(
@@ -32,19 +30,16 @@ mod_ocorrencias_ui <- function(id, dados) {
       echarts4r::echarts4rOutput(ns("serie_historica"))
     )
   )
-
 }
 
 mod_ocorrencias_server <- function(id, dados, dados_populacao) {
   moduleServer(id, function(input, output, session) {
-
     dados_filtrados <- mod_filtros_server(
       id = "filtros_1",
       dados
     )
 
     output$municipio_mais_ocorrencias <- renderUI({
-
       muni <- dados_filtrados() |>
         dplyr::group_by(municipio_nome) |>
         dplyr::summarise(
@@ -78,6 +73,5 @@ mod_ocorrencias_server <- function(id, dados, dados_populacao) {
         echarts4r::e_chart(x = data) |>
         echarts4r::e_line(serie = total_casos)
     })
-
   })
 }
