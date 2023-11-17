@@ -42,6 +42,7 @@ Fora do horário de aula ou monitoria:
 | Exemplos                                                                               |
 |:---------------------------------------------------------------------------------------|
 | [01-modulos.zip](https://curso-r.github.io/202311-dashboards-2/pratica/01-modulos.zip) |
+| [02-golem.zip](https://curso-r.github.io/202311-dashboards-2/pratica/02-golem.zip)     |
 
 ## Redes sociais da Curso-R
 
