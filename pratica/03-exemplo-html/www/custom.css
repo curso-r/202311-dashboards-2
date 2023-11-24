@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+h1 {
+  font-family: Sofia, cursive;
+  border: 4px dashed red;
+}
+
+
+.fonte_grande {
+  font-size: 40px;
+  color: blue;
+}
+
+
+.negrito {
+  color: yellow;
+}
+
+span {
+  color: pink;
+}
+
+p {
+  color: purple;
+}
+
+p {
+  color: red;
+}
+
+body {
+  background-color: gray;
+}
