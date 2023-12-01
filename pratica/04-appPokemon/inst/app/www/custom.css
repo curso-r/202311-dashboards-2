@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+  --cor_primaria: #355fab;
+  --cor_secundaria: #ffcc02;
+  --cor_valuebox: #ffcc0255;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+i.nav-icon {
+  color: var(--cor_secundaria);
+}
+
+.coluna_imagem {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+
+.bg-primary {
+  background-color: var(--cor_valuebox) !important;
+}
+
+
+.small-box>.small-box-footer {
+  background-color: var(--cor_valuebox);
+}
+
+.small-box>.small-box-footer:hover {
+  background-color: var(--cor_valuebox);
+}
+
+.bg-primary, .bg-primary>a {
+  color: black !important;
+}
+
+.small-box>.inner {
+  font-size: 32pt;
+  padding: 16px;
+}
+
+.small-box-footer {
+  height: 0!important;
+}
+
+.valuebox_normal .small-box .icon>i {
+  right: 20%;
+  transform: translate(50%,0);
+  color: var(--cor_primaria);
+}
+
+.valuebox_espelhado .small-box .icon>i {
+  left: 20%;
+  right: unset;
+  transform: translate(-50%,0);
+  color: var(--cor_primaria);
+}
+
+.valuebox_espelhado .small-box>.inner {
+  text-align: right;
+}
+
+.small-box .icon>i.fa, .small-box .icon>i.fab, .small-box .icon>i.fad, .small-box .icon>i.fal, .small-box .icon>i.far, .small-box .icon>i.fas, .small-box .icon>i.ion {
+  top: 34px;
+}
+
+.tipo_pkmn {
+  font-size: 16pt;
+  letter-spacing: 4px;
+}
+
+.logo_pkmn {
+  width: 100%;
+  padding: 16px 32px;
+}
+
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+  background-color: var(--cor_primaria);
+  color: #fff;
+}
+
+
+[class*=sidebar-dark-] {
+  background-color: #0d182d;
+}
+
+.navbar-white {
+  background-color: #fff;
+}
+
+.content-wrapper {
+  background-color: white;
+}

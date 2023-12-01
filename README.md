@@ -44,6 +44,7 @@ Fora do horário de aula ou monitoria:
 | [01-modulos.zip](https://curso-r.github.io/202311-dashboards-2/pratica/01-modulos.zip)           |
 | [02-golem.zip](https://curso-r.github.io/202311-dashboards-2/pratica/02-golem.zip)               |
 | [03-exemplo-html.zip](https://curso-r.github.io/202311-dashboards-2/pratica/03-exemplo-html.zip) |
+| [04-appPokemon.zip](https://curso-r.github.io/202311-dashboards-2/pratica/04-appPokemon.zip)     |
 
 ## Redes sociais da Curso-R
 
