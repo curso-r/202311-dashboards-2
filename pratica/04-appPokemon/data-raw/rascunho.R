@@ -120,15 +120,13 @@ mod_pag_pkmn_server <- function(id, dados) {
     )
 
     observe({
-      if (input$pokemon2 == "") {
+      if (input$pokemon1 == "") {
         opcoes <- pokemon
         selecionado <- opcoes[1]
       } else {
         opcoes <- pokemon[pokemon != input$pokemon2]
-        selecionado <- isolate(input$pokemon1)
+        selecionado <- input$pokemon1
       }
-
-      print("rodei as opcoes 1")
 
       updateSelectInput(
         inputId = "pokemon1",
@@ -139,14 +137,12 @@ mod_pag_pkmn_server <- function(id, dados) {
 
     observe({
       if (input$pokemon1 == "") {
-        opcoes <- pokemon[-1]
+        opcoes <- pokemon[pokemon != pokemon[1]]
         selecionado <- opcoes[1]
       } else {
         opcoes <- pokemon[pokemon != input$pokemon1]
-        selecionado <- isolate(input$pokemon2)
+        selecionado <- input$pokemon2
       }
-
-      print("rodei as opcoes 2")
 
       updateSelectInput(
         inputId = "pokemon2",
@@ -199,10 +195,10 @@ mod_pag_pkmn_server <- function(id, dados) {
         cor2 <- dados_filtrados2()$cor_1
       }
 
+      print("rodei o gráfico")
+
       pokemon1 <- stringr::str_to_sentence(dados_filtrados1()$pokemon)
       pokemon2 <- stringr::str_to_sentence(dados_filtrados2()$pokemon)
-
-      Sys.sleep(3)
 
       tab_1 <- dados_filtrados1() |>
         dplyr::select(
