@@ -47,6 +47,8 @@ Fora do horário de aula ou monitoria:
 | [04-appPokemon.zip](https://curso-r.github.io/202311-dashboards-2/pratica/04-appPokemon.zip)                 |
 | [05-appProdAgro.zip](https://curso-r.github.io/202311-dashboards-2/pratica/05-appProdAgro.zip)               |
 | [06-comunicacaoModulos.zip](https://curso-r.github.io/202311-dashboards-2/pratica/06-comunicacaoModulos.zip) |
+| [07-htmlwidgets.zip](https://curso-r.github.io/202311-dashboards-2/pratica/07-htmlwidgets.zip)               |
+| [08-javascript.zip](https://curso-r.github.io/202311-dashboards-2/pratica/08-javascript.zip)                 |
 
 ## Redes sociais da Curso-R
 

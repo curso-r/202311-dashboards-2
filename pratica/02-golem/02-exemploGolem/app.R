@@ -2,11 +2,6 @@
 # To deploy, run: rsconnect::deployApp()
 # Or use the blue button on top of this file
 
-devtools::load_all()
+pkgload::load_all(export_all = FALSE,helpers = FALSE,attach_testthat = FALSE)
 options( "golem.app.prod" = TRUE)
 exemploGolem::run_app() # add parameters here (if any)
-
-# library(exemploGolem)
-# run_app()
-
-# exemploGolem::run_app()
